@@ -1,5 +1,8 @@
+"use server";
+
 import { todoTable } from "@/drizzle/schema";
 import { eq } from "drizzle-orm";
+import { revalidatePath } from "next/cache";
 import db from "./db";
 
 export async function getData() {
@@ -7,8 +10,11 @@ export async function getData() {
   return res;
 }
 
-export async function addTodo(id: number, text: string) {
+export async function addTodo(formData: FormData) {
+  const id = Number(formData.get("id"));
+  const text = String(formData.get("text"));
   await db.insert(todoTable).values({ id, text });
+  revalidatePath("/");
 }
 
 export async function updateTodo(id: number, text: string) {
