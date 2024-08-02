@@ -23,4 +23,5 @@ export async function updateTodo(id: number, text: string) {
 
 export async function deleteTodo(id: number) {
   await db.delete(todoTable).where(eq(todoTable.id, id));
+  revalidatePath("/");
 }

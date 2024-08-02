@@ -1,3 +1,5 @@
+import { deleteTodo } from "@/lib/action";
+
 export default function TodoTable({
   data,
 }: {
@@ -10,6 +12,7 @@ export default function TodoTable({
           <th>ID</th>
           <th>text</th>
           <th>done</th>
+          <th>Delete</th>
         </tr>
       </thead>
       <tbody>
@@ -18,6 +21,21 @@ export default function TodoTable({
             <td>{todo.id} </td>
             <td>{todo.text} </td>
             <td>{todo.done.toString()} </td>
+            <td>
+              <form
+                action={async () => {
+                  "use server";
+                  await deleteTodo(todo.id);
+                }}
+              >
+                <button
+                  className="text-red-500 border-red-500 border-2 hover:bg-red-500 hover:text-white"
+                  type="submit"
+                >
+                  削除
+                </button>
+              </form>
+            </td>
           </tr>
         ))}
       </tbody>
