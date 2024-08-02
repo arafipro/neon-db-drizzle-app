@@ -24,7 +24,7 @@ bun install
 
 ### 環境変数
 
-`.env.example`に、NEONのDATABASE_URLをコピーして、`.env`に変更
+`.env.example`に、NEON の DATABASE_URL をコピーして、`.env`に変更
 
 ```sh:.env.example
 DATABASE_URL=<NEON DATABASE URL>
