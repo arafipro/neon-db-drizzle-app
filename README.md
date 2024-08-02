@@ -1,8 +1,8 @@
-# 【Cloudflare Pages】Neon+Drizzle ORM を使って、TODO アプリを作る（バックエンド編）
+# 【Cloudflare Pages】Neon DB+Drizzle ORM を使って、TODO アプリを作る（フロントエンド編）
 
 ## YouTube
 
-[!["【Cloudflare Pages】Neon+Drizzle ORMを使って、TODOアプリを作る（バックエンド編）"](https://i.ytimg.com/vi/tFfUHpv2FUI/maxresdefault.jpg)](https://youtu.be/tFfUHpv2FUI)
+[!["【Cloudflare Pages】Neon DB+Drizzle ORMを使って、TODOアプリを作る（フロントエンド編）"](https://i.ytimg.com/vi/gkylc_XAQJw/maxresdefault.jpg)](https://youtu.be/gkylc_XAQJw)
 
 ## 技術選定
 
@@ -24,7 +24,7 @@ bun install
 
 ### 環境変数
 
-`.env.example`に、NEON の DATABASE_URL をコピーして、`.env`に変更
+`.env.example`に、NEONの`DATABASE_URL`をコピーして、`.env`に変更
 
 ```sh:.env.example
 DATABASE_URL=<NEON DATABASE URL>
