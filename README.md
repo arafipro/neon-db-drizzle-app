@@ -1,8 +1,8 @@
-# 【Cloudflare Pages】Neon DB+Drizzle ORM を使って、TODO アプリを作る（フロントエンド編）
+# NeonとDrizzleで作るToDoアプリ完全ガイド！
 
 ## YouTube
 
-[!["【Cloudflare Pages】Neon DB+Drizzle ORMを使って、TODOアプリを作る（フロントエンド編）"](https://i.ytimg.com/vi/japtkE5KxFQ/maxresdefault.jpg)](https://youtu.be/japtkE5KxFQ)
+[!["NeonとDrizzleで作るToDoアプリ完全ガイド！"](https://i.ytimg.com/vi/japtkE5KxFQ/maxresdefault.jpg)](https://youtu.be/japtkE5KxFQ)
 
 ## 技術選定
 
