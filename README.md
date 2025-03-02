@@ -2,7 +2,7 @@
 
 ## YouTube
 
-[!["【Cloudflare Pages】Neon DB+Drizzle ORMを使って、TODOアプリを作る（フロントエンド編）"](https://i.ytimg.com/vi/gkylc_XAQJw/maxresdefault.jpg)](https://youtu.be/gkylc_XAQJw)
+[!["【Cloudflare Pages】Neon DB+Drizzle ORMを使って、TODOアプリを作る（フロントエンド編）"](https://i.ytimg.com/vi/japtkE5KxFQ/maxresdefault.jpg)](https://youtu.be/japtkE5KxFQ)
 
 ## 技術選定
 
